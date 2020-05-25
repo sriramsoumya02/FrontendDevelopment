@@ -1,0 +1,46 @@
+.navbar-nav .active {
+  border-left: #444 solid 3px; }
+
+.carousel-item {
+  height: 400px; }
+
+#home-heading {
+  background-image: url(../img/lights.jpg); }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#home-video {
+  background-image: url(../img/media.jpg); }
+
+.b-img {
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px; }
+
+#aboutus,
+#services-heading,
+#blog-header,
+#contact-header {
+  background-image: url(../img/image1.jpg); }
+
+.fas {
+  color: white; }
+
+#quetions .card {
+  border: #444; }
+
+#quetions a {
+  color: #fff;
+  text-decoration: none; }
+
+#quetions .card-body,
+#quetions .card-header {
+  background: #333; }
