@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div
+        id="colorFlipper"
+        style="width: 200px; height: 200px"
+        class="container"
+      >
+        <h4>Color Flipper</h4>
+        <h6>Background color is: <span class="color">#f1f5f8</span></h6>
+        <button id="btnColorFlipper" class="btn">Simple</button>
+        <button id="btnColorHex" class="btn">HexColor</button>
+      </div>
+      <div
+        id="counter"
+        style="width: 200px; height: 200px; background-color: pink"
+        class="container"
+      >
+        <h4>Counter</h4>
+        <h1 id="CounterValue">0</h1>
+
+        <button class="btn decrease">-</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn increase">+</button>
+      </div>
+      <div
+        id="carousel"
+        style="width: 200px; height: 200px; background-color: skyblue"
+        class="container"
+      >
+        <div class="carouselItem"><h4></h4></div>
+        <button class="carouselPrevious btn">&lt;</button>
+        <button class="carouselNext btn">&gt;</button>
+        <button class="carouselNext btn">Go</button>
+      </div>
+    </div>
+    <nav class="container nav-bar">
+      <div class="nav-brand">
+        <img src="imgs/logo.svg"></img>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li class="list-item"><a href="index.html">home</a></li>
+          <li class="list-item"> <a href="about.html">about</a></li>
+          <li class="list-item"> <a href="projects.html">projects</a></li>
+          <li class="list-item"><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav-links second-nav">
+          <li class="list-item"><a href="index.html">home</a></li>
+          <li class="list-item"> <a class="active" href="about.html">about</a></li>
+          <li class="list-item"> <a href="projects.html">projects</a></li>
+          <li class="list-item"><a href="contact.html">contact</a></li>
+        </ul>
+        </ul>
+        <ul  style="color: red">
+          <li style="color: Blue">ghsafghafs</li>
+        </ul>
+      </div>
+    </nav>
+    <script src="app.js"></script>
+  </body>
+</html>
