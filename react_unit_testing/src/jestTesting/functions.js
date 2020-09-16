@@ -1,5 +1,5 @@
 //const axios = require('axios');
-import axios from 'axios';
+import Axios from 'axios';
 
 const myfunction = {
   add: (num1, num2) => num1 + num2,
@@ -11,8 +11,7 @@ const myfunction = {
     return User;
   },
   fetchUser: () =>
-    axios
-      .get('http://jsonplaceholder.typicode.com/users/1')
+    Axios.get('http://jsonplaceholder.typicode.com/users/1')
       .then((res) => res.data)
       .catch((err) => 'error'),
   reverseString: (str) => str.split('').reverse().join(''),
