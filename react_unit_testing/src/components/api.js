@@ -4,3 +4,7 @@ export const api = {
     return Promise.resolve(newItem);
   },
 };
+
+export function getUser(){
+  return Promise.resolve({name:'soumya',id:'1'});
+}

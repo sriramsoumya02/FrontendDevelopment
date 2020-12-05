@@ -1,3 +1,5 @@
+//out put of below
+//[..."Hello"]==o/p ['H','e','l','l','o']
 //coding Interview
 //https://www.fullstack.cafe/blog/javascript-code-interview-questions
 //Given a string, reverse each word in the sentence
